@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BSCS-A</string>
+    <string name="App_developer">Elon Musk</string>
+    <array name="countires">
+        <item>Pakistan</item>
+        <item>China</item>
+        <item>Poland</item>
+    </array>
+</resources>

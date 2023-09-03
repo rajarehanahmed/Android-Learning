@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App BSIT</string>
+    <array name="country_names">
+        <item>Pakistan</item>
+        <item>China</item>
+        <item>Poland</item>
+        <item>Thiland</item>
+        <item>Malaysia</item>
+        <item>USA</item>
+        <item>UK</item>
+        <item>UAE</item>
+    </array>
+</resources>

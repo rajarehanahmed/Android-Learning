@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuSwap"
+        android:icon="@drawable/ic_baseline_swap_vertical_circle_24"
+        android:title="swaps"
+        app:showAsAction="ifRoom"
+    />
+    <item
+    android:id="@+id/menu1"
+    android:title="Call"
+    android:icon="@drawable/ic_baseline_swap_vert_24"/>
+    <item
+        android:id="@+id/menu2"
+        android:title="Text">
+        <menu>
+            <item
+                android:id="@+id/submenu1"
+                android:title="Sms" />
+            <item
+                android:id="@+id/submenu2"
+                android:title="Whatsapp" />
+        </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Country"
+        android:textSize="40sp"
+        android:textColor="@color/black"/>
+    <View
+        android:id="@+id/vLine"
+        android:layout_width="361dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvCountry"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tvPopulationTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vLine"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="Population"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvPopulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vLine"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/tvPopulationTag"
+        android:text="Population"
+        android:textColor="@color/material_on_surface_emphasis_medium"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvAreaTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_below="@id/tvPopulationTag"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tvArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area"
+        android:textSize="20sp"
+        android:textColor="@color/material_on_surface_emphasis_medium"
+        android:layout_below="@id/tvPopulation"
+        android:layout_toRightOf="@id/tvAreaTag"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/tvCapitalTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/tvAreaTag"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tvCapital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital"
+        android:textSize="20sp"
+        android:textColor="@color/material_on_surface_emphasis_medium"
+        android:layout_below="@id/tvArea"
+        android:layout_toRightOf="@id/tvCapitalTag"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/tvLanguageTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="National Language"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/tvCapitalTag"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:textSize="20sp"
+        android:textColor="@color/material_on_surface_emphasis_medium"
+        android:layout_below="@id/tvCapital"
+        android:layout_toRightOf="@id/tvLanguageTag"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/tvPresidentTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="President"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/tvLanguageTag"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tvPresident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="President"
+        android:textSize="20sp"
+        android:textColor="@color/material_on_surface_emphasis_medium"
+        android:layout_below="@id/tvLanguage"
+        android:layout_toRightOf="@id/tvPresidentTag"
+        android:layout_marginLeft="20dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">ClassAssessment29Nov</string>
+    <string name="title_activity_second_acitivity">SecondAcitivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="pakistan">
+        <item>220 million</item>
+        <item>8 Lac sq km</item>
+        <item>Islamabad</item>
+        <item>Urdu</item>
+        <item>Arif Alvi</item>
+    </string-array>
+    <string-array name="china">
+        <item>1.4 billon</item>
+        <item>9.5 Million sq km</item>
+        <item>Beijing</item>
+        <item>Chinese</item>
+        <item>Xi Jinping</item>
+    </string-array>
+    <string-array name="india">
+        <item>1.38 billion</item>
+        <item>3.2 Million sq km</item>
+        <item>Delhi</item>
+        <item>Hindi</item>
+        <item>Ram Nath Kovind</item>
+    </string-array>
+    <string-array name="russia">
+        <item>144.1 million</item>
+        <item>17.13 million sq km</item>
+        <item>Moscow</item>
+        <item>Russian</item>
+        <item>Vladimir Putin</item>
+    </string-array>
+    <string-array name="afghanistan">
+        <item>38.93 million</item>
+        <item>652,860 sq km</item>
+        <item>Kabul</item>
+        <item>Pashto</item>
+        <item>Amrullah Saleh</item>
+    </string-array>
+    <string-array name="iran">
+        <item>83.99 million</item>
+        <item>1.648 million sq km</item>
+        <item>Tehran</item>
+        <item>Persian</item>
+        <item>Ebrahim Raisi</item>
+    </string-array>
+    <string-array name="azerbaijan">
+        <item>10.11 million</item>
+        <item>86,600 sq km</item>
+        <item>Baku</item>
+        <item>Azerbaijani</item>
+        <item>Ilham Aliyev</item>
+    </string-array>
+    <string-array name="nepal">
+        <item>29.14 million</item>
+        <item>147,516 sq km</item>
+        <item>Kathmandu</item>
+        <item>Nepali</item>
+        <item>Bidhya Devi Bhandari</item>
+    </string-array>
+    <string-array name="bangladesh">
+        <item>164.7 million</item>
+        <item>148,460 sq km</item>
+        <item>Dhaka</item>
+        <item>Bengali</item>
+        <item>Abdul Hamid</item>
+    </string-array>
+    <string-array name="sri_lanka">
+        <item>21.92 million</item>
+        <item>65,610 sq km</item>
+        <item>Colombo</item>
+        <item>Tamil</item>
+        <item>Gotabaya Rajapaksa</item>
+    </string-array>
+    <string-array name="usa">
+        <item>329.5 million</item>
+        <item>9.834 million sq km</item>
+        <item>Washington, D.C.</item>
+        <item>English</item>
+        <item>Joe Biden</item>
+    </string-array>
+    <string-array name="canada">
+        <item>38.01 million</item>
+        <item>9.985 million sq km</item>
+        <item>Ottawa</item>
+        <item>English</item>
+        <item>Justin Trudeau(PM)</item>
+    </string-array>
+    <string-array name="saudi_arabia">
+        <item>34.81 million</item>
+        <item>2.15 million sq km</item>
+        <item>Riyadh</item>
+        <item>Arabic</item>
+        <item>Salman bin Abdulaziz Al Saud</item>
+    </string-array>
+    <string-array name="iraq">
+        <item>40.22 million</item>
+        <item>438,317 sq km</item>
+        <item>Baghdad</item>
+        <item>Arabic</item>
+        <item>Barham Salih</item>
+    </string-array>
+    <string-array name="uk">
+        <item>67.22 million</item>
+        <item>242,495 sq km</item>
+        <item>London</item>
+        <item>English</item>
+        <item>Boris Johnson(PM)</item>
+    </string-array>
+    <string-array name="germany">
+        <item>83.24 million</item>
+        <item>357,386 sq km</item>
+        <item>Berlin</item>
+        <item>German</item>
+        <item>Frank-Walter Steinmeier</item>
+    </string-array>
+    <string-array name="japan">
+        <item>125.8 million</item>
+        <item>377,975 sq km</item>
+        <item>Tokyo</item>
+        <item>Japanese</item>
+        <item>Shinzo Abe</item>
+    </string-array>
+    <string-array name="brazil">
+        <item>212.6 million</item>
+        <item>8,515,767 sq km</item>
+        <item>Brasília</item>
+        <item>Portuguese</item>
+        <item>Jair Bolsonaro</item>
+    </string-array>
+    <string-array name="south_africa">
+        <item>59.31 million</item>
+        <item>1.22 million sq km</item>
+        <item>Cape Town</item>
+        <item>Afrikaans</item>
+        <item>Cyril Ramaphosa</item>
+    </string-array>
+    <string-array name="namibia">
+        <item>2.541 million</item>
+        <item>824,292 sq km</item>
+        <item>Windhoek</item>
+        <item>English</item>
+        <item>Hage Geingob</item>
+    </string-array>
+</resources>

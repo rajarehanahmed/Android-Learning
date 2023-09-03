@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practice9Oct</string>
+    <string-array name="arrCountries">
+        <item>Pakistan</item>
+        <item>Malaysia</item>
+        <item>Turkey</item>
+        <item>Azerbaijan</item>
+        <item>Russia</item>
+        <item>Canada</item>
+        <item>Egypt</item>
+        <item>United Kingdom</item>
+    </string-array>
+</resources>
